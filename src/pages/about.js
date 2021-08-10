@@ -25,9 +25,6 @@ const About = ({
               Four dollar toast biodiesel plaid salvia actually pickled banjo
               bespoke mlkshk intelligentsia edison bulb synth.
             </p>
-            <Link to="/contact" className="btn">
-              contact
-            </Link>
           </article>
           <StaticImage
             src="../assets/images/about.jpg"
