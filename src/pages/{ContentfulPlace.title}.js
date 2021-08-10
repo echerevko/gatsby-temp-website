@@ -33,7 +33,7 @@ const PlaceTemplate = ({ data }) => {
             />
             <article className="place-info">
               <h2>{title}</h2>
-              <p>{description}</p>
+              <p>{adress}</p>
               {/* icons */}
               <div className="place-icons">
                 <article>
@@ -50,7 +50,7 @@ const PlaceTemplate = ({ data }) => {
                   <Link to={findLocation}>
                     <FaMapMarkerAlt />
                   </Link>
-                  <h5>Open map</h5>
+                  <h5>Google Maps</h5>
                 </article>
               </div>
               {/* tags */}
@@ -71,6 +71,7 @@ const PlaceTemplate = ({ data }) => {
           <section className="place-content">
             <article>
               <h4>description</h4>
+              <p>{description}</p>
               {instructions.map((item, index) => {
                 return (
                   <div key={index} className="single-instruction">
