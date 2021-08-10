@@ -9,7 +9,6 @@ const Contact = ({ data }) => {
   return (
     <Layout>
       <SEO title="Contact" />
-
       <main className="page">
         <section className="contact-page">
           <article className="contact-info">
