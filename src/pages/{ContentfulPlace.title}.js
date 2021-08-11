@@ -18,7 +18,7 @@ const PlaceTemplate = ({ data }) => {
     image,
   } = data.contentfulPlace
   const pathToImage = getImage(image)
-  const { tags, instructions, ingredients, tools } = content
+  const { tags, instructions, equipment, infrastructure } = content
   return (
     <Layout>
       <SEO title={title} description={description} />
@@ -86,8 +86,8 @@ const PlaceTemplate = ({ data }) => {
             </article>
             <article className="second-column">
               <div>
-                <h4>ingredients</h4>
-                {ingredients.map((item, index) => {
+                <h4>equipment</h4>
+                {equipment.map((item, index) => {
                   return (
                     <p key={index} className="single-ingredient">
                       {item}
@@ -96,8 +96,8 @@ const PlaceTemplate = ({ data }) => {
                 })}
               </div>
               <div>
-                <h4>tools</h4>
-                {tools.map((item, index) => {
+                <h4>infrastructure</h4>
+                {infrastructure.map((item, index) => {
                   return (
                     <p key={index} className="single-tool">
                       {item}
@@ -121,10 +121,10 @@ export const query = graphql`
       adress
       findLocation
       content {
-        ingredients
+        equipment
         instructions
         tags
-        tools
+        infrastructure
       }
       description {
         description
