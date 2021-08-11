@@ -1,20 +1,23 @@
 {
-  "tags": ["ribs", "dinner", "food"],
-  "tools": [
-    "hand blender",
-    "large heavy pot with lid",
-    "measuring spoons",
-    "measuring cups"
-  ],
-  "ingredients": [
-    "1  1/2 cups dry pancake mix",
-    "1/2 cup flax seed meal",
-    "1 cup skim milk"
-  ],
-  "instructions": [
-    "I'm baby mustache man braid fingerstache small batch venmo succulents shoreditch.",
-    "Pabst pitchfork you probably haven't heard of them, asymmetrical seitan tousled succulents wolf banh mi man bun bespoke selfies freegan ethical hexagon.",
-    "Polaroid iPhone bitters chambray. Cornhole swag kombucha live-edge.",
-    "Unicorn meditation affogato venmo, vexillologist DIY godard iPhone. Whatever chambray paleo, meh try-hard hashtag meggings wayfarers hella flannel ugh asymmetrical succulents."
-  ]
+  "tags": ["walk",
+        "nature",
+        "forest"],
+  "infrastructure": [
+        "cafe",
+        "toilet",
+        "parking",
+        "the ability to walk with a stroller"б
+		"animals: sheep, horses, poultry"
+    ],
+    "equipment": [
+        "comfortable shoes",
+        "baby carriage",
+        "sun and wind protection"
+    ],
+    "instructions": [
+        "There are many ways to spend time in Tyreso with families.",
+        "You can just walk and enjoy the extraordinary nature.",
+        "Also, you can go race walking or explore the flora of the park along the walking paths.",
+        "There is a small farm in the park. You can watch and feed chickens, sheep and horses with your children."
+    ]
 }
